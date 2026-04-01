@@ -1,13 +1,10 @@
 import { APIRequestContext } from '@playwright/test';
+import { env } from '../config/env';
 
 export class UserAPI {
   constructor(private request: APIRequestContext) {}
 
-  async getUser(token: string) {
-    return await this.request.get('/user', {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
+  async getUser() {
+    return await this.request.get(`${env.apiURL}/users/1`);
   }
 }

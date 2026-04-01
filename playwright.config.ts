@@ -79,6 +79,7 @@
 // });
 
 import { defineConfig } from '@playwright/test';
+import { env } from './config/env';
 
 export default defineConfig({
   testDir: './tests',
@@ -88,7 +89,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
 
   use: {
-    baseURL: process.env.BASE_URL || 'https://example.com',
+    baseURL: env.baseURL || 'https://example.com',
     headless: true,
   },
 });
