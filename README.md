@@ -10,7 +10,36 @@ This project demonstrates a scalable, enterprise-grade test automation framework
 - Extensible design for large teams
 
 ## Folder Structure
-(Explain briefly)
+enterprise-playwright-framework/
+│
+├── tests/
+│   ├── ui/
+│   ├── api/
+│   ├── integration/
+│
+├── pages/              # Page Objects
+├── api/                # API clients
+├── fixtures/           # Custom fixtures
+├── utils/              # Helpers
+├── data/               # Test data
+├── config/             # Env configs
+├── reporters/          # Custom reporting
+├── scripts/            # Utility scripts
+├── docs/               # Architecture docs
+├── ai/                 # AI testing modules
+│
+├── .github/workflows/
+├── playwright.config.ts
+├── package.json
+├── tsconfig.json
+├── README.md
+
+## Framework Highlights
+
+- Custom fixtures for dependency injection
+- Modular Page Object Model
+- API + UI integration
+- Scalable architecture for enterprise teams
 
 ## Getting Started
 npm install
