@@ -1,4 +1,5 @@
 import { test as base } from '@playwright/test';
+import { getAuthToken } from '../utils/auth';
 import { LoginPage } from '../pages/LoginPage';
 import { UserAPI } from '../api/userApi';
 
@@ -11,18 +12,15 @@ type MyFixtures = {
 export const test = base.extend<MyFixtures>({
   
   loginPage: async ({ page }, use) => {
-    const loginPage = new LoginPage(page);
-    await use(loginPage);
+    await use(new LoginPage(page));
   },
 
   userApi: async ({ request }, use) => {
-    const userApi = new UserAPI(request);
-    await use(userApi);
+    await use(new UserAPI(request));
   },
 
   authToken: async ({}, use) => {
-    // Later: fetch from API
-    const token = "sample-token";
+    const token = await getAuthToken();
     await use(token);
   },
 

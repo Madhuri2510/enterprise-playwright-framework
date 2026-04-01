@@ -44,3 +44,9 @@ enterprise-playwright-framework/
 ## Getting Started
 npm install
 npx playwright test
+
+## Authentication Strategy
+
+- Token-based API authentication
+- Storage state reuse for UI sessions
+- Centralized test data management

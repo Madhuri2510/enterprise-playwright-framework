@@ -82,6 +82,7 @@ import { defineConfig } from '@playwright/test';
 import { env } from './config/env';
 
 export default defineConfig({
+  globalSetup: require.resolve('./scripts/auth.setup'),
   testDir: './tests',
 
   timeout: 60000,
@@ -89,7 +90,6 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
 
   use: {
-    baseURL: env.baseURL || 'https://example.com',
-    headless: true,
+    storageState: 'storageState.json',
   },
 });
