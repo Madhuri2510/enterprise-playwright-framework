@@ -83,12 +83,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1217,
+                  "duration": 1130,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:24:39.504Z",
+                  "startTime": "2026-04-02T01:36:31.801Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -131,12 +131,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1634,
+                  "duration": 1735,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:24:39.531Z",
+                  "startTime": "2026-04-02T01:36:31.813Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -171,12 +171,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1171,
+                  "duration": 1551,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:24:41.552Z",
+                  "startTime": "2026-04-02T01:36:33.973Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -219,7 +219,7 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "timedOut",
-                  "duration": 62840,
+                  "duration": 62586,
                   "error": {
                     "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
@@ -244,7 +244,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:24:39.491Z",
+                  "startTime": "2026-04-02T01:36:31.825Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -302,12 +302,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 1559,
+                  "duration": 1690,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:24:39.467Z",
+                  "startTime": "2026-04-02T01:36:31.814Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -331,8 +331,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-04-02T01:24:36.790Z",
-    "duration": 65909.481,
+    "startTime": "2026-04-02T01:36:21.780Z",
+    "duration": 73430.238,
     "expected": 4,
     "skipped": 0,
     "unexpected": 1,
