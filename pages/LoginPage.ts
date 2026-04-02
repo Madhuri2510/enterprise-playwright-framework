@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { findElement } from '../utils/selfHealing';
 
 export class LoginPage {
   constructor(private page: Page) {}
@@ -8,8 +9,12 @@ export class LoginPage {
   }
 
   async login(username: string, password: string) {
-    await this.page.fill('#username', username);
-    await this.page.fill('#password', password);
-    await this.page.click('#login');
+    const usernameField = await findElement(this.page, [
+      '#username',
+      '[name="user"]',
+      'input[type="text"]'
+    ]);
+  
+    await usernameField.fill(username);
   }
 }

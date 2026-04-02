@@ -115,6 +115,12 @@ Advanced dashboards (Grafana)
 Contract testing
 Service virtualization
 
+## 🤖 Advanced AI Capabilities
+
+- Self-healing locators for resilient UI automation
+- AI-based assertion suggestions for improved coverage
+- Automatic test generation from API schemas
+
 ## 🧠 Design Principles
 
 Modularity

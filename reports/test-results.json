@@ -83,7 +83,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9,
+                  "duration": 11,
                   "errors": [],
                   "stdout": [
                     {
@@ -95,7 +95,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T04:50:03.632Z",
+                  "startTime": "2026-04-02T05:05:50.611Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -111,7 +111,54 @@
           ],
           "id": "4886e1f8545fd102fe81-a20c2e4ed4473d808ce7",
           "file": "ai/ai.spec.ts",
-          "line": 4,
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "AI assertion suggestion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "AI Prompt: \n  Suggest assertions for the following scenario:\n\n  User login success page\n\n  Include:\n  - UI validations\n  - API validations\n  - Edge cases\n  \n"
+                    },
+                    {
+                      "text": "Suggested Assertions:\n \n    1. Validate login with valid credentials\n    2. Validate login with invalid password\n    3. Validate empty username\n    4. Validate session timeout\n    \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-02T05:05:50.724Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\test-results\\ai-ai-AI-assertion-suggestion\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4886e1f8545fd102fe81-28170809a50d01e71945",
+          "file": "ai/ai.spec.ts",
+          "line": 13,
           "column": 5
         }
       ]
@@ -138,12 +185,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 980,
+                  "duration": 909,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T04:50:03.660Z",
+                  "startTime": "2026-04-02T05:05:50.582Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -159,8 +206,55 @@
           ],
           "id": "e5684c0c26310e44cecc-e349001150b835d1f6bb",
           "file": "api/user.spec.ts",
-          "line": 3,
+          "line": 4,
           "column": 5
+        },
+        {
+          "title": "Generate API tests using AI",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "AI Prompt: \n  Generate API test cases for the following schema:\n\n  \n    POST /login\n    Body: { username: string, password: string }\n    Response: { token: string }\n    \n\n  Include:\n  - Positive tests\n  - Negative tests\n  - Boundary cases\n  - Status code validation\n  \n"
+                    },
+                    {
+                      "text": "Generated API Tests:\n \n    1. Validate login with valid credentials\n    2. Validate login with invalid password\n    3. Validate empty username\n    4. Validate session timeout\n    \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-02T05:05:51.595Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\test-results\\api-user-Generate-API-tests-using-AI\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e5684c0c26310e44cecc-58575e9f9ff48469e9b3",
+          "file": "api/user.spec.ts",
+          "line": 10,
+          "column": 7
         }
       ]
     },
@@ -186,12 +280,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 1505,
+                  "duration": 1376,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T04:50:03.626Z",
+                  "startTime": "2026-04-02T05:05:50.574Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -226,12 +320,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 1174,
+                  "duration": 1335,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T04:50:05.437Z",
+                  "startTime": "2026-04-02T05:05:52.370Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -273,23 +367,26 @@
                 {
                   "workerIndex": 3,
                   "parallelIndex": 3,
-                  "status": "timedOut",
-                  "duration": 65029,
+                  "status": "failed",
+                  "duration": 1350,
                   "error": {
-                    "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                    "message": "Error: Element not found using selectors: #username,[name=\"user\"],input[type=\"text\"]",
+                    "stack": "Error: Element not found using selectors: #username,[name=\"user\"],input[type=\"text\"]\n    at findElement (C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\utils\\selfHealing.ts:15:9)\n    at LoginPage.login (C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\pages\\LoginPage.ts:12:27)\n    at C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\tests\\ui\\login.spec.ts:10:3",
+                    "location": {
+                      "file": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\utils\\selfHealing.ts",
+                      "column": 9,
+                      "line": 15
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\utils\\selfHealing.ts:15\n\n\u001b[0m \u001b[90m 13 |\u001b[39m   }\n \u001b[90m 14 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m   \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m`Element not found using selectors: ${selectors}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 16 |\u001b[39m }\u001b[0m"
                   },
                   "errors": [
                     {
-                      "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
-                    },
-                    {
                       "location": {
-                        "file": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\pages\\LoginPage.ts",
-                        "column": 21,
-                        "line": 11
+                        "file": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\utils\\selfHealing.ts",
+                        "column": 9,
+                        "line": 15
                       },
-                      "message": "Error: page.fill: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\LoginPage.ts:11\n\n\u001b[0m \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m   \u001b[36masync\u001b[39m login(username\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mfill(\u001b[32m'#username'\u001b[39m\u001b[33m,\u001b[39m username)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mfill(\u001b[32m'#password'\u001b[39m\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mclick(\u001b[32m'#login'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\pages\\LoginPage.ts:11:21)\u001b[22m\n\u001b[2m    at C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\tests\\ui\\login.spec.ts:10:19\u001b[22m"
+                      "message": "Error: Element not found using selectors: #username,[name=\"user\"],input[type=\"text\"]\n\n\u001b[90m   at \u001b[39m..\\utils\\selfHealing.ts:15\n\n\u001b[0m \u001b[90m 13 |\u001b[39m   }\n \u001b[90m 14 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m   \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m`Element not found using selectors: ${selectors}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 16 |\u001b[39m }\u001b[0m\n\u001b[2m    at findElement (C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\utils\\selfHealing.ts:15:9)\u001b[22m\n\u001b[2m    at LoginPage.login (C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\pages\\LoginPage.ts:12:27)\u001b[22m\n\u001b[2m    at C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\tests\\ui\\login.spec.ts:10:3\u001b[22m"
                     }
                   ],
                   "stdout": [
@@ -299,7 +396,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T04:50:03.636Z",
+                  "startTime": "2026-04-02T05:05:50.589Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -322,7 +419,12 @@
                       "contentType": "application/zip",
                       "path": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\test-results\\ui-login-User-login-test\\trace.zip"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\utils\\selfHealing.ts",
+                    "column": 9,
+                    "line": 15
+                  }
                 }
               ],
               "status": "unexpected"
@@ -357,12 +459,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1161,
+                  "duration": 1155,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T04:50:03.739Z",
+                  "startTime": "2026-04-02T05:05:50.766Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -386,9 +488,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-04-02T04:49:53.438Z",
-    "duration": 75601.00700000001,
-    "expected": 5,
+    "startTime": "2026-04-02T05:05:40.637Z",
+    "duration": 13304.052,
+    "expected": 7,
     "skipped": 0,
     "unexpected": 1,
     "flaky": 0
