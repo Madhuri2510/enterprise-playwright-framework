@@ -90,6 +90,15 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
 
   use: {
+    baseURL: env.baseURL,
     storageState: 'storageState.json',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+    trace: 'on',
+
   },
+  reporter: [
+    ['html', { outputFolder: 'playwright-report', open: 'never' }],
+    ['json', { outputFile: 'reports/test-results.json' }],
+  ]
 });

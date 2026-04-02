@@ -50,3 +50,9 @@ npx playwright test
 - Token-based API authentication
 - Storage state reuse for UI sessions
 - Centralized test data management
+
+## Reporting & Observability
+
+- HTML and JSON reports for execution insights
+- Screenshots, videos, and traces for failure debugging
+- Logging utility for better traceability

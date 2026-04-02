@@ -8,7 +8,9 @@
     "test:dev": "cross-env ENV=dev npx playwright test",
     "test:qa": "cross-env ENV=qa npx playwright test",
     "test:staging": "cross-env ENV=staging npx playwright test",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "report:open": "npx playwright show-report",
+    "report:json": "cat reports/test-results.json"
   },
   "keywords": [],
   "author": "",
