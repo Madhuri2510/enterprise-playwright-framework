@@ -56,3 +56,10 @@ npx playwright test
 - HTML and JSON reports for execution insights
 - Screenshots, videos, and traces for failure debugging
 - Logging utility for better traceability
+
+## CI/CD Integration
+
+- GitHub Actions pipeline for automated test execution
+- Runs on pull requests
+- Fails build on test failures (quality gate)
+- Uploads test reports as artifacts
