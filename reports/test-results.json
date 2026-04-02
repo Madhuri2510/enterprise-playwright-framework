@@ -62,6 +62,61 @@
   },
   "suites": [
     {
+      "title": "ai\\ai.spec.ts",
+      "file": "ai/ai.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "AI test case generation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "AI Prompt: \n    Generate detailed test cases for the following user story:\n  \n    \"User should be able to login with valid credentials\"\n  \n    Include:\n    - Positive scenarios\n    - Negative scenarios\n    - Edge cases\n    \n"
+                    },
+                    {
+                      "text": "Generated Test Cases:\n \n    1. Validate login with valid credentials\n    2. Validate login with invalid password\n    3. Validate empty username\n    4. Validate session timeout\n    \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-02T04:50:03.632Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Madhuri Goswami\\enterprise-playwright-framework\\test-results\\ai-ai-AI-test-case-generation\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4886e1f8545fd102fe81-a20c2e4ed4473d808ce7",
+          "file": "ai/ai.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "api\\user.spec.ts",
       "file": "api/user.spec.ts",
       "column": 0,
@@ -80,15 +135,15 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1130,
+                  "duration": 980,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:36:31.801Z",
+                  "startTime": "2026-04-02T04:50:03.660Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -128,15 +183,15 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 1735,
+                  "duration": 1505,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:36:31.813Z",
+                  "startTime": "2026-04-02T04:50:03.626Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -168,15 +223,15 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 1551,
+                  "duration": 1174,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:36:33.973Z",
+                  "startTime": "2026-04-02T04:50:05.437Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -216,10 +271,10 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
                   "status": "timedOut",
-                  "duration": 62586,
+                  "duration": 65029,
                   "error": {
                     "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
@@ -244,7 +299,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:36:31.825Z",
+                  "startTime": "2026-04-02T04:50:03.636Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -299,15 +354,15 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1690,
+                  "duration": 1161,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-02T01:36:31.814Z",
+                  "startTime": "2026-04-02T04:50:03.739Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -331,9 +386,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-04-02T01:36:21.780Z",
-    "duration": 73430.238,
-    "expected": 4,
+    "startTime": "2026-04-02T04:49:53.438Z",
+    "duration": 75601.00700000001,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 1,
     "flaky": 0
